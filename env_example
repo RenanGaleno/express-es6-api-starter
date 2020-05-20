@@ -1,0 +1,4 @@
+NODE_ENV = dev
+PORT = 3000
+MONGO_URL = mongodb://127.0.0.1:27017/apidb
+JWT_SECRET = 2eKhpZ6QebcJwde7wgAr0ZJACwckK3UorHZlgCXc1oWowD3JUWKXxtUu4HxE9Er 
