@@ -61,7 +61,7 @@ router.post("/register", (req, res) => {
   }
 
   // Check if email is not already used
-  findUser(req.body.email, req.body.subsecao_id)
+  findUser(req.body.email)
     .then((_userExistent) => {
       if (_userExistent) {
         res.status(400).json({
